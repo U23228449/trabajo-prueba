@@ -22,7 +22,7 @@ const tracks: Track[] = [
     title: "All My Love",
     artist: "Coldplay",
     audioSrc: import.meta.env.BASE_URL +"/audio/coldplay2.mp3",
-    waveformSrc: import.meta.env.BASE_URL +"/images/coldplay1.jpg",
+    waveformSrc: import.meta.env.BASE_URL +"/images/coldplay2.jpg",
     lyrics: [
       "",
       "Until I die",
