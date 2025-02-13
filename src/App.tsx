@@ -198,7 +198,7 @@ const ValentineQuestion = ({
 )
 const ValentineGif = () => (
   <div className="text-center mt-4">
-    <p className="text-2xl font-bold text-pink-500 mb-4 text-glow-pink-strong ">Hehe, I'll treat you well</p>
+    <p className="text-2xl font-bold text-pink-500 mb-4 text-glow-pink-strong ">Hehe thanks ^^, I'll treat you well</p>
     <img
       src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExejU1dXFlOWxybHFvOGQ0ZGUyenI1dHVkY2owbGFkYWlwc3pidzc0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WP1Z0FfnuMuXqPvDlj/giphy.gif"
       alt="Valentine's Day Celebration"
