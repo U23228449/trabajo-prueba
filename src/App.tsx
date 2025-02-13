@@ -76,7 +76,7 @@ const tracks: Track[] = [
   },
   {
     id: 4,
-    title: "좋다고 말해?",
+    title: "좋다고 말해",
     artist: "BOL4",
     audioSrc: import.meta.env.BASE_URL +"/audio/bol4.mp3",
     waveformSrc: import.meta.env.BASE_URL +"/images/bol4.jpg",
