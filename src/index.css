@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap");
+@import "tailwindcss";
+
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+
+  --primary: 0 0% 100%;
+  --primary-foreground: 0 0% 0%;
+}
+
+.dark {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+}
+
+body {
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.icon-glow {
+  filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.8));
+}
+
+.icon-glow:hover {
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 1));
+}
+
+.text-glow-strong {
+  color: white;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.5);
+}
+.text-glow-pink-strong {
+  color: rgb(218, 35, 157);
+  text-shadow: 0 0 10px rgba(231, 40, 206, 0.8), 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.text-glow-subtle {
+  color: white;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+}
+
